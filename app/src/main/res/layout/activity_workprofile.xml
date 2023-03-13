@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    android:orientation="vertical"
+    tools:context=".Workprofile">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Work Profile"
+        android:layout_margin="50dp"
+        android:letterSpacing="0.1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="27dp"/>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Github"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/design"
+                android:hint="Github Link"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Linkedin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/design"
+                android:hint="Linkedin Link"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/reset"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="reset"
+                        android:textColor="@color/black"
+                        android:background="@drawable/design"/>
+
+                    <Button
+                        android:id="@+id/next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="next"
+                        android:textColor="@color/black"
+                        android:layout_marginHorizontal="20dp"
+                        android:background="@drawable/design"/>
+
+                </LinearLayout>
+</LinearLayout>
